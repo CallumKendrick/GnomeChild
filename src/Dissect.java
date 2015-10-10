@@ -18,7 +18,7 @@ public class Dissect {
         String[] arr = q.split(" ");
 
         for ( String ss : arr) {
-            if(ss.charAt(0) == "c") {
+            if(ss.substring(0).equals("c")) {
                 System.out.println(ss);
             }
         }
