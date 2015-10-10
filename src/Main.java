@@ -8,5 +8,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("What do you wish to know, my child?");
         String q = in.nextLine();
+        Dissect dissect = new Dissect(q);
     }
 }
