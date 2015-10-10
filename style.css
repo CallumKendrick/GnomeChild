@@ -1,0 +1,38 @@
+.content{
+  text-align: center;
+  padding-top: 20%;
+}
+body{
+  background-image: url("gnome.jpg");
+}
+
+.form {
+    background-color:rgba(192,192,192,0.4);
+    padding:1em;
+    width:20%;
+    position:fixed;
+    border-radius: 2em;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.content input{
+max-width: 100%;
+}
+#button{
+  background-color:rgba(178,0,0,0.9);
+  color:#fff;
+  padding:5px;
+  border:none;
+  box-sizing:border-box;
+  font-size:18px
+}
+@media screen and (max-width: 1000px) {
+body{ background-image: url("gnome.jpg");
+  background-size:cover;
+}
+.form{
+  background-color:rgba(192,192,192,0.8);
+  width:50%;
+}
+}
